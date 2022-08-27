@@ -144,13 +144,13 @@ variable "performance_diagnostics_enabled" {
 variable "performance_diagnostics_sessions_sampling_interval" {
   description = "Interval (in seconds) for pg_stat_activity sampling Acceptable values are 1 to 86400, inclusive."
   type = number
-  default = false
+  default = null
 }
 
 variable "performance_diagnostics_statements_sampling_interval" {
   description = "Interval (in seconds) for pg_stat_statements sampling Acceptable values are 1 to 86400, inclusive."
   type = number
-  default = false
+  default = null
 }
 
 
